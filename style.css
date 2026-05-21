@@ -1,20 +1,20 @@
-body{
+.body{
     font-family: Arial;
     background-color: #f4f4f4;
 }
 
-h1{
+.h1{
     text-align: center;
     background-color: black;
     color: white;
     padding: 20px;
 }
 
-h2,h3,p{
+.h2,h3,p{
     text-align: center;
 }
 
-a{
+.a{
     text-decoration: none;
     color: black;
     margin: 15px;
@@ -22,11 +22,11 @@ a{
     font-weight: bold;
 }
 
-a:hover{
+.a:hover{
     color: darkred;
 }
 
-button{
+.button{
     background-color: black;
     color: white;
     border: none;
@@ -36,11 +36,11 @@ button{
     cursor: pointer;
 }
 
-button:hover{
+.button:hover{
     background-color: darkred;
 }
 
-img{
+.img{
     border-radius: 30px;
     margin-top: 10px;
 }
@@ -65,14 +65,14 @@ img{
     object-fit: cover;
 }
 
-input{
+.input{
     padding: 8px;
     width: 250px;
     border-radius: 5px;
     border: 1px solid gray;
 }
 
-hr{
+.hr{
     margin-top: 30px;
     margin-bottom: 30px;
 }
