@@ -1,0 +1,78 @@
+body{
+    font-family: Arial;
+    background-color: #f4f4f4;
+}
+
+h1{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+h2,h3,p{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    margin: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+a:hover{
+    color: darkred;
+}
+
+button{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: darkred;
+}
+
+img{
+    border-radius: 30px;
+    margin-top: 10px;
+}
+
+.product{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
+}
+
+.card{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.product.image{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+input{
+    padding: 8px;
+    width: 250px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+hr{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
